@@ -1,0 +1,25 @@
+.sideDrawer {
+    width: 85%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: green;
+    z-index: 120;
+    position: fixed;
+    transition: all 0.3s ease-out;
+
+}
+
+@media (min-width: 500px) {
+    .sideDrawer {
+        display: none;
+    }
+}
+
+.open {
+    transform: translateX(0);
+}
+
+.close {
+    transform: translateX(-100vh);
+}

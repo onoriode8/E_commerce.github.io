@@ -1,0 +1,117 @@
+.shopping {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 183px;
+    height: 275px;
+    cursor: pointer;
+}
+
+.Button {
+    position: fixed;
+    background-color: aqua;
+    left: 49%;
+    right: 45%;
+}
+
+.greet {
+    display: flex;
+    font-family: fantasy;
+    color: green;
+    justify-content: center;
+    transition: all 1s ease-out;
+}
+
+.wrapShopping {
+    left: 25%;
+    right: 25%;
+    position: fixed;
+    background-color:#FFF;
+    box-shadow: 1px 1px 9px black;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    /* margin-top: -5vh; */
+}
+
+.price {
+    text-align: center;
+    left: 49%;
+    right: 45%;
+    cursor: pointer;
+}
+
+@media(min-width: 500px) {
+    .Button{
+        position: fixed;
+        background-color: aqua;
+        left: 45%;
+        right: 45%;
+    }
+
+    .image {
+        width: 183px;
+        height: 275px;
+    }
+}
+
+@media(max-width: 499px) {
+    .Button{
+        position: fixed;
+        background-color: aqua;
+        left: 40%;
+        right: 40%;
+    }
+
+    .image {
+        width: 173px;
+        height: 265px;
+    }
+   
+}
+
+@media(min-width: 540px) {
+    .Button{
+        position: fixed;
+        background-color: aqua;
+       left: 40%;
+        right: 40%;
+    }
+
+    .image {
+        width: 163px;
+        height: 255px;
+    }
+    
+}
+
+@media(max-width: 375px) {
+    .Button{
+        position: fixed;
+        background-color: aqua;
+        left: 40%;
+        right: 40%;
+    }
+
+    .image {
+        width: 143px;
+        height: 245px;
+    }
+    
+}
+
+@media(max-width: 280px) {
+    .Button{
+        position: fixed;
+        background-color: aqua;
+        left: 30%;
+        right: 30%;
+    }
+
+    .image {
+        width: 133px;
+        height: 235px;
+    }
+    
+}
