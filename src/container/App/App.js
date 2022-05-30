@@ -14,6 +14,7 @@ class App extends Component {
                         <Route path="/" exact component={Shopping} />
                         <Route path="/inputForm" component={InputForm} />
                         <Route path="/My_Order" component={MyOrder} />
+                        <Route render={() => <p>Page not Found</p>} />
                     </Switch>
                 </Fragment>
             </div>
