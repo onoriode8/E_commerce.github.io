@@ -13,6 +13,7 @@ class Shopping extends Component {
         User: null
     }
 
+    // component for greeting users when they check in
      componentDidMount() {
         axios.get("/newUser.json")
         .then(res => {
