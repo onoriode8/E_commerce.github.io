@@ -1,0 +1,167 @@
+.shopModel {
+    position: fixed;
+    left: 20%;
+    right: 20%;
+    box-shadow: 2px 3px 7px black;
+    box-sizing: border-box;
+    z-index: 100;
+    transition: all 0.5s ease-out;
+    text-align: center;
+    background-color: white;
+    display: block;
+    top: 20vh;
+}
+
+.Button {
+   background-color: aquamarine;
+   margin: 8px;
+   cursor: pointer;
+}
+
+@media(max-width: 307px) {
+    .image {
+        width: 45%;
+        height: 45%;
+    }
+}
+
+@media(max-width: 280px) {
+    .image {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media(max-width: 280px) {
+    .chairPrice {
+        display: block;
+    }
+}
+
+@media(max-width: 280px) {
+    .hTag {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 350px) {
+    .shopModel {
+        position: fixed;
+        left: 10%;
+        right: 10%;
+    }
+}
+
+@media(max-width: 375px) {
+    .image {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media(max-width: 375px) {
+    .chairPrice {
+        display: block;
+    }
+}
+
+@media(max-width: 375px) {
+    .hTag {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 390px) {
+    .image {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media(max-width: 390px) {
+    .chairPrice {
+        display: block;
+    }
+}
+
+@media(max-width: 390px) {
+    .hTag {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 393px) {
+    .image {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media(max-width: 393px) {
+    .chairPrice {
+        display: block;
+    }
+}
+
+@media(max-width: 393px) {
+    .hTag {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 414px) {
+    .image {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media(max-width: 414px) {
+    .chairPrice {
+        display: block;
+    }
+}
+
+@media(max-width: 414px) {
+    .hTag {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1290px) {
+    .image {
+        width: 35%;
+        height: 35%;
+    }
+}
+
+@media(max-width: 1290px) {
+    .chairPrice {
+        display: block;
+    }
+}
+
+@media(max-width: 1290px) {
+    .hTag {
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 1280px) {
+    .image {
+        width: 20%;
+        height: 20%;
+    }
+}
+
+@media(max-width: 1280px) {
+    .chairPrice {
+        display: block;
+    }
+}
+
+@media(max-width: 1280px) {
+    .hTag {
+        font-size: 20px;
+    }
+}
